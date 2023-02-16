@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'Inter'; 
+	src: local('Inter'),
+		url(https://fonts.googleapis.com/css2? family=Inter:wght@400;700&display=swap); 
+}
+
+body {
+    font-family: Inter;
+}
+
+.page-1 {
+    max-width: 1152px;
+}
+
+
+.head__title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.nav__body {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+.nav__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav__search {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-left: 215px;
+    color: #718096;
+    font-size: 16px; 
+}
+
+
+.search__icon {
+    padding-right: 12px;
+    max-height: 18px;
+    max-width: 18px
+}
+
+
+.nav__social {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    align-items: center;  
+}
+
+.head__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.head__header {
+    margin-left: 110px;
+    
+}
+
+.head__title {
+    max-width: 354px;
+}
+
+
+.head__h1 {
+    font-size: 60px;
+    
+}
+
+.head__icon {
+    position: absolute;
+    top: 240px;
+    left: 330px;
+    transform: rotate(180);
+}
+
+.head__paragraphly {
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+    color: #4A5568;
+
+}
+
+.head__img {
+    padding-left: 25px;
+}
+
+
+
+
+
+
+
+/* Вопросы по коду. 
+
+1. Есть ли лишние вложенности и небольшой комментарий где и что можно было бы изменить?
+2. Корректно ли даны названия элементов?
+3. Правильно ли я сделал что установил ширину для .social и padding для search или можно было подругому раздвинуть элементы в нем
+
+
+*/
