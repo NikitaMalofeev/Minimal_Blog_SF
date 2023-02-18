@@ -6,8 +6,16 @@
 
 body {
     font-family: Inter;
+    margin: 0 auto;
 }
 
+h2{
+    color: black;
+}
+
+h3 {
+    color: #000000;
+}
 .page-1 {
     max-width: 1152px;
 }
@@ -22,12 +30,12 @@ body {
 .nav__body {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 70px;
+    max-width: 1150px;
 }
 
 .nav__title {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 70;
 }
 
 .nav__search {
@@ -57,6 +65,7 @@ body {
 .head__body {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
 }
 
 .head__header {
@@ -297,6 +306,59 @@ body {
     margin: 0 30px;
 }
 
+.container {
+    max-width: 1152px;
+}
+
+.main__img-container {
+    width: 990px;
+    height: 380px;
+    padding: 0 70px;
+}
+
+.main__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main__title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.main__autor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    padding-top: 25px;
+}
+
+.main__flex {
+    display: flex;
+    flex-direction: column;
+    margin: 42px 192px;
+}
+
+.main__line {
+    max-width: 765px;
+    margin: 25px 192px;
+    border: 1px solid #E8E8E8;
+}
+
+.main__longread{
+    max-width: 765px;
+    margin: 0 192px 58px;
+    font-size: 16px;
+    color:#718096;
+}
+
+.footer-details {
+    max-width: 1152px;
+}
+
+
+
 
 
 
@@ -311,4 +373,5 @@ body {
 4. Почему когда я пытаюсь создать новую ветку page-2 у меня перестает пушится версия в гитхаб
 5. Правильно ли выбран формат для всех картинок?
 6. Возникал проблема с позиционированием кнопки, можно ли cделать подругому? position abcolut тоже не хотелось использовать
+7. Главный вопрос! Как отлепить весь сайт от левого верхнего угла и засунуть в середину, у body margin: 0 auto; не работает
 */
